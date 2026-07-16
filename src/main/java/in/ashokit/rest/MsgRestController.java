@@ -16,7 +16,7 @@ public class MsgRestController {
 	@GetMapping("/welcome")
 	public String getMsg() {
 		int i = 50;
-		int j = 20;
+		int j = 60;
 		int age = 16;
 		int k = 30;
 		return msgService.getWelcomeMsg();
