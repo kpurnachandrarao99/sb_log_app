@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import in.ashokit.service.MsgService;
 
 @RestController
-@RequestMapping("/apd")
+@RequestMapping("/apk")
 public class MsgRestController {
 	
 	@Autowired
@@ -16,7 +16,6 @@ public class MsgRestController {
 	@GetMapping("/welcome")
 	public String getMsg() {
 		int i = 20;
-		int j = 40;
 		int j = 40;
 		int age = 16;
 		int k = 30;
